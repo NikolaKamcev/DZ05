@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Domaci zadatak 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "css/st.css" type = "text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">MetHotels</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="pocetna.html">Home</a></li>
+        <li class="active"><a href="rezervacije.html">Rezervacije</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="#">O nama</a></li>
+    </div>
+  </div>
+</nav>
+
+<h1>Pogledajte neke od nasih ponuda : </h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="img/slika3.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Dvokrevetna soba,pun pansion.</p>
+            <p>Nasa ponuda sa nocenjem : 20<span class="glyphicon glyphicon-euro"></span></p>
+            <button class="btn btn-primary" onclick="myFunction()">Rezervisi!</button>
+          <script>
+          function myFunction() {
+              alert("Postovani,uspesno ste rezervisali jednu dvokrevetnu sobu!");
+          }
+          </script>  
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="img/slika4.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Trokrevetna soba,pun pansion.</p>
+            <p>Nasa ponuda sa nocenjem : 40<span class="glyphicon glyphicon-euro"></span></p>
+            <button class="btn btn-primary" onclick="myFunction1()">Rezervisi!</button>
+          <script>
+          function myFunction1() {
+              alert("Postovani,uspesno ste rezervisali jednu trokrevetnu sobu!");
+          }
+          </script>  
+          
+
+         </div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="img/slika5.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Cetvorokrevetna soba,pun pansion.</p>
+            <p>Nasa ponuda sa nocenjem : 80<span class="glyphicon glyphicon-euro"></span></p>
+            <button class="btn btn-primary" onclick="myFunction2()">Rezervisi!</button>
+            <script>
+            function myFunction2() {
+                alert("Postovani,uspesno ste rezervisali jednu cetvorokrevetnu sobu!");
+            }
+            </script>  
+
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
